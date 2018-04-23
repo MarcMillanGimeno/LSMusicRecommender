@@ -1,5 +1,7 @@
 # LSMusicRecommender
 
+**Author**: Marc Millán Gimeno - ls29307 
+
 ## Description
 This project tries to create an application that can recommend music to the users since the music that customers have heard or that the themes liked
 
