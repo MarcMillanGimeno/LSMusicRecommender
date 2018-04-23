@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang = "es">
+	<head>
+		<meta charset="utf-8">
+  		<meta name= "Author" content= "Albert Bosch ls28932 Albert Martí ls28855 Marc Millan ls29307">
+    	<meta name= "description" content="Practica Final">
+		<title>Practica Final</title>
+		
+
+		<meta name="viewport" content="width=device-width , user-scalable=no">
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="./mdl/material.min.css">
+
+		<link rel = "stylesheet" type = "text/css" href = "css.css">
+
+	</head>
+
+	<body id = "lasallemusic-recommender">
+		
+        <!-- Simple header with fixed tabs. -->
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+			<header class="mdl-layout__header">
+				<figure>
+            		<img src = "Logo.png" alt= "Logo not found">
+            		<span class = "brand-background"></span>
+
+            		<form method = "searcher">
+						<input id = "search" name = "query" placeholder="Search your song, artist or album" required>
+
+						<button id ="search_button" type = "button"> Search </button>
+						
+						<!--<button id = "search_button" type = "button"> Search
+							<i class = "material-icons">search</i>
+  						</button>
+						-->
+					</form>
+            	</figure>
+			   
+				
+
+				<!-- Tabs -->
+				<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+					<a id = "tab_home" href="#fixed-tab-1" class="mdl-layout__tab is-active">HOME</a>
+					<a id = "tab_playlist" href="#fixed-tab-2" class="mdl-layout__tab">PLAYLIST</a>
+					<a id = "tab_recomender" href="#fixed-tab-3" class="mdl-layout__tab">RECOMMENDER</a>
+				</div>
+
+			</header>
+
+			<main class="mdl-layout__content">
+				<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+					<div class="page-content">ALBERTTTTTTTTTTTTT</div>
+				</section>
+				<section class="mdl-layout__tab-panel" id="fixed-tab-2">
+					<div class="page-content"><!-- Your content goes here --></div>
+				</section>
+				<section class="mdl-layout__tab-panel" id="fixed-tab-3">
+					<div class="page-content">ALBERTTTTTTTTTTTTT</div>
+				</section>
+			</main>
+		</div>
+
+        <div id = "HomeSongs" class = "block">
+        
+        	<section id = "Home">
+            	<h2>Home - Songs for you</h2>
+            	<ul class="video-list clearfix">
+									
+				</ul>                
+             </section>
+         </div>
+         
+        <footer>
+             
+            <h3></h3>
+         	<figure class="player">
+                <audio id = "audioPlayer" controls autoplay>                
+                	<source  src=""></source>
+                </audio>
+            </figure>
+
+			<!-- Right aligned menu on top of button  -->
+			<!--<button id="demo-menu-top-right"
+			        class="mdl-button mdl-js-button mdl-button--icon">
+			  <i class="material-icons">more_vert</i>
+			</button>
+
+			<ul class="mdl-menu mdl-menu--top-right mdl-js-menu mdl-js-ripple-effect"
+			    data-mdl-for = "demo-menu-top-right">
+
+			  <li disabled class="mdl-menu__item">ADD TO LIST</li>
+			  <li class="mdl-menu__item">Lista 1</li>
+			  <li class="mdl-menu__item">Lista 2</li>
+			  <li class="mdl-menu__item">Lista N</li>
+			</ul>-->
+			
+
+
+			<!-- FAB button with ripple -->
+			<button id = "buttonAdd" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+			  <i class="material-icons">add</i>
+			</button>
+
+
+
+    	</footer>
+	    	
+		<script src="./practica_javaScript.js"></script>
+		<script src="./mdl/material.min.js"></script>
+	</body>
+</html>
